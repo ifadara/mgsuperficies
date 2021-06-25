@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Asenine;
+    src: url('../asenine/ASENINE_.ttf');
+}
+body{
+    background-image: url('../img/Fundo-Site.png');
+    background-size: 100%;
+    font-family: Asenine;
+    font-size: 16px;
+    position: relative;
+}
+
+
+html{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+#descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#navbar{
+    width: 1248px; 
+    margin: auto; 
+    background-image: url(../img/BARRA\ CABEÇALHO.png);
+}
+
+#navbar-collapse{
+    position: absolute; 
+    right: 475px; 
+    font-size: 24px;
+}
+#navbar-redes{
+    margin-left: auto; 
+    margin-right: 50px;
+}
+#btn-wpp{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.img-fluid{
+    position: absolute;
+    left: auto;
+}
+.prcsdr-prm, .aba{
+    float: left;
+}
+
+.aba, .link-aba{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+}
+
