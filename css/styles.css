@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family: Asenine;
     src: url('../asenine/ASENINE_.ttf');
@@ -17,7 +21,7 @@ html{
 
 a{
     text-decoration: none;
-    color: blanchedalmond;
+    color:white;
 }
 
 #descricao{
@@ -46,6 +50,19 @@ a{
     bottom: 0;
 }
 
+.selo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 140px;
+    width: 400px;
+    float: left;
+     
+}
+.bio{
+    font-size: 22px;
+    margin-right: 25px;
+
+}
 .img-fluid{
     position: absolute;
     left: auto;
