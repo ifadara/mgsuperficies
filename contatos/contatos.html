@@ -32,15 +32,21 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body>
+<body style="background: white;">
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top fon"
-            style="width: 1248px; margin: auto; background-image: url(../img/BARRA\ CABEÇALHO.png);">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top fon" id="navbar">
 
-            <a href="index.html" class="navbar-brand" style="margin-left: 60px;">
-                <img src="../img/LOGO MG SUP.png" alt="" width="100px">
-            </a>
+            <div class="container">
+                <a href="#" class="navbar-brand" style="margin-left: 60px;">
+                    <img src="../img/LOGO MG SUP.png" alt="" width="100px">
+                </a>
+            </div>
+
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <i class="fas fa-bars"></i>
+            </button>
 
             <a href="" class="navbar-brand">
                 <div id="btn-wpp">
@@ -48,7 +54,7 @@
                 </div>
             </a>
 
-            <div class="collapse navbar-collapse " style="position: absolute; right: 475px; font-size: 24px;">
+            <div class="collapse navbar-collapse " id="navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
@@ -57,8 +63,18 @@
                         <a class="nav-link active" aria-current="page" href="../quem-somos/quem-somos.html">Quem
                             Somos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../produtos/produtos.html">Produtos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="link"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../produtos/corian.html">Corian</a></li>
+                            <li><a class="dropdown-item" href="../produtos/dekton.html">Dekton</a></li>
+                            <li><a class="dropdown-item" href="../produtos/silestone.html">Silestone</a></li>
+                            <li><a class="dropdown-item" href="../produtos/diamond.html">Diamond</a></li>
+                            <li><a class="dropdown-item" href="../produtos/neolith.html">Neolith</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../contatos/contatos.html">Contato</a>
@@ -69,7 +85,7 @@
             </div>
 
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav" style="margin-left: auto; margin-right: 50px;">
+                <ul class="navbar-nav" id="navbar-redes">
                     <li class="nav-item">
                         <a href="https://www.facebook.com">
                             <img src="../img/facebook.png" width="20px" style="margin: 10px;">
@@ -94,16 +110,264 @@
             <a href=""></a>
         </nav>
     </header>
-
+    <br><br><br><br><br><br>
     <main class="clearfix" style="width: 1248px; margin: auto;">
 
 
+        <div class="container">
+            <div style="text-align: center;">
+                <h1>FALE DIRETAMENTE COM NOSSA EMPRESA</h1>
+                <p>ATENDIMENTO PERSONALIZADO SOBRE PAGAMENTOS, PÓS-VENDAS OU PARCERIAS.</p>
+                <button type="button" class="btn btn-lg" style="background-image: url('img/Botão.png');">CLIQUE
+                    AQUI</button>
+            </div>
+
+            <br><br><br>
+
+            <div class="row">
+                <div class="col-md-4" style="max-width: 315px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flatcoin.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <strong>MAIS DE 12 ANOS no mercado de luxo</strong><br>
+                                    Estamos entre os melhores da América Latina no Processamento Premium de Superfícies
+                                    de Alto Padrão
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4" style="max-width: 315px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flatcoin.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <strong>GARANTIA EM PÓS VENDA E MANUTENÇÃO</strong><br>
+                                    Estamos entre os melhores da América Latina no Processamento Premium de Superfícies
+                                    de Alto Padrão
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="max-width: 315px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flatcoin.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <strong>MAIS DE 12 ANOS no mercado de luxo</strong><br>
+                                    Estamos entre os melhores da América Latina no Processamento Premium de Superfícies
+                                    de Alto Padrão
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4" style="max-width: 315px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flatcoin.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <strong>DIVERSOS ShowroomS</strong><br>
+                                    Estamos entre os melhores da América Latina no Processamento Premium de Superfícies
+                                    de Alto Padrão
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="max-width: 315px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flatcoin.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <strong>Melhores Marcas de Revestimentos</strong><br>
+                                    Estamos entre os melhores da América Latina no Processamento Premium de Superfícies
+                                    de Alto Padrão
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="max-width: 315px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Flatcoin.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <strong>Selo Sustentabilidade</strong><br>
+                                    Estamos entre os melhores da América Latina no Processamento Premium de Superfícies
+                                    de Alto Padrão
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <br><br><br>
+
+            <h2>Entre em Contato</h2>
+
+            <form class="row row-cols-lg-auto g-3 align-items-center">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">Nome</span>
+                    <input type="text" class="form-control" placeholder="Nome" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">Tel ou Whatsapp</span>
+                    <input type="text" class="form-control" placeholder="Tell ou Whatsapp" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">E-mail</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Mensagem</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+
+                <div class="row">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </form>
+
+            <div>
+                <h2>Como Descobriu a MG SUPERFICIES?</h2>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Pesquisa no Google
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Redes Sociais
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Indicação de um Cliente
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Showroon ou Feira
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Indicação de um Arquiteto
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="row"
+                style="background-image: url(img/Retângulo\ 13\ copiar\ 2.png); width: 1100px; height: 100px;;">
+                <h4 class="col-md-4"
+                    style="margin:auto; margin-left: 20px; color: white; font-family: Arial, Helvetica, sans-serif;">
+                    Baixe nosso catálogo</h4>
+                <a class="col-md-5" href="" style="margin: auto; margin-left: auto;"><img src="img/Botão Email.png"
+                        width="300"></a>
+            </div>
+
+            <br><br><br>
+
+
+
+            <div class="row">
+                <div class="col-md-5">
+                    <br><br><br>
+                    <p>
+                        Contato: <br>
+                        +55 (48) 3346-3632 <br>
+                        contato@mgsuperficies.com.br
+
+                    </p>
+                    <br><br><br>
+                    <p>
+                        Escritório <br>
+                        Rua Hamilton Ferreira, 694 <br>
+                        Bairro Areias - São José <br>
+                        Santa Catarina, Brasil <br>
+                        CEP 88.113-832
+
+                    </p>
+                </div>
+
+                <div class="col-md-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3537.2483935640776!2d-48.642432785429456!3d-27.554800526923472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274bd83e5f964b%3A0x1d046dc19f5e97c5!2sR.%20Hamilton%20Ferreira%2C%20694%20-%20Areias%2C%20S%C3%A3o%20Jos%C3%A9%20-%20SC%2C%2088113-832!5e0!3m2!1spt-BR!2sbr!4v1624649528633!5m2!1spt-BR!2sbr"
+                        width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
 
 
 
 
-
-
+            <br><br><br><br>
+        </div>
         <!-- FOOTER -->
         <footer style="background-image: url('../img/Fundo\ -\ COMPLET.png'); height: 400px;">
             <br><br>

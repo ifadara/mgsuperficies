@@ -32,15 +32,21 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body>
+<body style="background: white;">
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top fon"
-            style="width: 1248px; margin: auto; background-image: url(../img/BARRA\ CABEÇALHO.png);">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top fon" id="navbar">
 
-            <a href="index.html" class="navbar-brand" style="margin-left: 60px;">
-                <img src="../img/LOGO MG SUP.png" alt="" width="100px">
-            </a>
+            <div class="container">
+                <a href="#" class="navbar-brand" style="margin-left: 60px;">
+                    <img src="../img/LOGO MG SUP.png" alt="" width="100px">
+                </a>
+            </div>
+
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <i class="fas fa-bars"></i>
+            </button>
 
             <a href="" class="navbar-brand">
                 <div id="btn-wpp">
@@ -48,7 +54,7 @@
                 </div>
             </a>
 
-            <div class="collapse navbar-collapse " style="position: absolute; right: 475px; font-size: 24px;">
+            <div class="collapse navbar-collapse " id="navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
@@ -57,8 +63,18 @@
                         <a class="nav-link active" aria-current="page" href="../quem-somos/quem-somos.html">Quem
                             Somos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../produtos/produtos.html">Produtos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="link"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Produtos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../produtos/corian.html">Corian</a></li>
+                            <li><a class="dropdown-item" href="../produtos/dekton.html">Dekton</a></li>
+                            <li><a class="dropdown-item" href="../produtos/silestone.html">Silestone</a></li>
+                            <li><a class="dropdown-item" href="../produtos/diamond.html">Diamond</a></li>
+                            <li><a class="dropdown-item" href="../produtos/neolith.html">Neolith</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../contatos/contatos.html">Contato</a>
@@ -69,7 +85,7 @@
             </div>
 
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav" style="margin-left: auto; margin-right: 50px;">
+                <ul class="navbar-nav" id="navbar-redes">
                     <li class="nav-item">
                         <a href="https://www.facebook.com">
                             <img src="../img/facebook.png" width="20px" style="margin: 10px;">
@@ -97,88 +113,84 @@
 
     <main class="clearfix" style="width: 1248px; margin: auto;">
 
+        <br><br><br><br><br><br>
 
         <div class="container">
             <div class="row">
-
-                <div class="col-md-5">
-                    <img src="img/produtos.png" width="400px" height="400px" style="position: absolute; right: 150px;">
-                </div>
                 <div class="jumbotron col-md-5">
                     <h1 class="display-4"><strong>CORIAN</strong> DUPONT</h1>
+                    <br><br><br><br>
                     <p class="lead" style="font-family: Arial, Helvetica, sans-serif;">DuPont™ Corian® é a
                         combinação perfeita de minerais naturais e polímero
                         acrílico puro. Proporciona aplicações ilimitadas, porque as suas placas podem ser
                         coladas umas às outras de maneira imperceptível, criando a aparência de uma peça única e
                         contínua.</p>
                     <hr class="my-4">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Saiba Mais</a>
-                    <br><br><br><br>
-                    <p style="font-family: Arial, Helvetica, sans-serif;">Projetos de Cozinhas - Banheiros -
-                        Hospitais e Áreas de Saúde </p>
+                    <a href="#" style="color:black ; font-size: 30px;">SAIBA MAIS</a>
+                    <br><br>
+
+                </div>
+                <div class="col-md-7">
+                    <img src="corian/boffi-cove-kitchen-zaha-hadid-architects-new-york-2017_dezeen_sq.png" width="600px"
+                        height="400px" style="margin-left: 50;">
                 </div>
             </div>
+            <br>
+            <h2 style="font-size: 40px; text-align: center;"><strong>NOVOS</strong> PRODUTOS</h2>
 
-            <h4>Novos Produtos</h4>
-
+            <br>
 
             <div class="row">
-                <div class="card mb-3 col-md-5" style="max-width: 540px; margin: 10px;">
+                <div class="card mb-3 col-md-3" style="max-width: 540px; margin-right: 40px;">
                     <div class="row g-0">
 
                         <div class="col-md-8">
                             <div class="card-body">
-                                <p class="card-text" style="margin-bottom: 10px;">
-                                    Seguimos as técnicas de fabricação e
-                                    instalação conforme os
-                                    manuais Corian®, além de atender com prontidão eventuais solicitações em Garantia.
-                                </p>
+                                <p class="card-text">DuPont™ Corian® é a combinação perfeita de minerais naturais.</p>
+                                <h5 class="card-title">CUBAS</h5>
+                                <a href="#" class="btn btn-md btn-dark">SAIBA MAIS</a>
                             </div>
                         </div>
 
                         <div class="col-md-4">
-                            <img src="img/CorianDesign-Processador-Premium_CMYK (2).png" class="img-fluid rounded-start"
-                                width="100" height="77" style="margin: 10px;">
+                            <img src="corian/Produto 01.png" class="img-fluid rounded-start" width="200" height="77"
+                                style="margin: 0px;">
                         </div>
                     </div>
                 </div>
 
-                <div class="card mb-3 col-md-3" style="max-width: 540px; margin: 10px;">
+                <div class="card mb-3 col-md-2" style="max-width: 540px; margin: 70px;">
                     <div class="row g-0">
 
                         <div class="col-md-8">
                             <div class="card-body">
-                                <p class="card-text" style="margin-bottom: 10px;">
-                                    Seguimos as técnicas de fabricação e
-                                    instalação conforme os
-                                    manuais Corian®, além de atender com prontidão eventuais solicitações em Garantia.
+                                <p class="card-text" style="font-size: 21px;">
+                                    CANAL EQUIPADO
+
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-md-4">
-                            <img src="img/CorianDesign-Processador-Premium_CMYK (2).png" class="img-fluid rounded-start"
-                                width="100" height="77" style="margin: 10px;">
+                            <img src="corian/Produto 01.png" class="img-fluid rounded-start" width="100" height="77"
+                                style="margin: 10px;">
                         </div>
                     </div>
                 </div>
 
-                <div class="card mb-3 col-md-3" style="max-width: 540px; margin: 10px;">
+                <div class="card mb-3 col-md-2" style="max-width: 540px; margin: 10px;">
                     <div class="row g-0">
 
                         <div class="col-md-8">
                             <div class="card-body">
-                                <p class="card-text" style="margin-bottom: 10px;">
-                                    Seguimos as técnicas de fabricação e
-                                    instalação conforme os
-                                    manuais Corian®, além de atender com prontidão eventuais solicitações em Garantia.
+                                <p class="card-text" style="font-size: 21px;">
+                                    TAMPO DESLIZANTE
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-md-4">
-                            <img src="img/CorianDesign-Processador-Premium_CMYK (2).png" class="img-fluid rounded-start"
-                                width="100" height="77" style="margin: 10px;">
+                            <img src="corian/Produto 01.png" class="img-fluid rounded-start" width="100" height="77">
                         </div>
                     </div>
                 </div>
@@ -187,19 +199,104 @@
                     <img class=" " src="../img/Botão - COMPLETO.png" width="300px">
                 </a>
 
+                <br><br><br><br>
+                <div class="container">
+                    <div class="row" style="text-align: center;">
+                        <h1>
+                            Características & Benefícios
+                        </h1>
+                        <br><br><br><br>
+                        <img src="corian/" alt="">
+                        <div class="col-md-3">
+                            <img src="corian/eco.png" alt="">
+                            Higiênico
+                        </div>
+                        <div class="col-md-3">
+                            <img src="corian/eco-3.png" alt="">
+                            Resistente
+                        </div>
+                        <div class="col-md-3">
+                            <img src="corian/eco-7.png" alt="">
+                            Não poroso
+                        </div>
+                        <div class="col-md-3">
+                            <img src="corian/eco-5.png" alt="">
+                            Emendas Imperceptíveis
+                        </div>
+                    </div>
 
-                <div class="row">
-
-
-
+                    <div class="row" style="text-align: center;">
+                        <div class="col-md-3">
+                            <img src="corian/eco-2.png" alt="">
+                            Durável
+                        </div>
+                        <div class="col-md-3">
+                            <img src="corian/eco-1.png" alt="">
+                            Fácil de Limpar
+                        </div>
+                        <div class="col-md-3">
+                            <img src="corian/eco-4.png" alt="">
+                            Reparável
+                        </div>
+                        <div class="col-md-3">
+                            <img src="corian/eco-6.png" alt="">
+                            100% Moldável
+                        </div>
+                    </div>
                 </div>
 
 
             </div>
 
         </div>
+        <br><br><br>
+        <h1 style="text-align: center;">Conheça algumas cores</h1>
 
+        <br><br><br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+            style="width: 400px; margin: auto;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="corian/Quadro Cor 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="corian/Quadro Cor 2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="corian/Quadro Cor 3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
+        <button class="btn btn-sm" style="text-align: center;"> cosmos prima</button>
+
+        <h2 style="text-align: center;">Quer saber mais sobre CORIAN?<br>
+            Baixe nosso catálogo
+        </h2>
+
+        <br><br>
+
+        <a href="#" class="btn btn-lg active clearfix" role="button" aria-pressed="true">
+            <img class=" " src="../img/Botão - COMPLETO.png" width="300px" style="margin-left: 450px;">
+        </a>
 
         <!-- FOOTER -->
         <footer style="background-image: url('../img/Fundo\ -\ COMPLET.png'); height: 400px;">
