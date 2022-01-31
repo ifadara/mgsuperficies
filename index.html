@@ -37,27 +37,24 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top fon" id="navbar">
+        <nav class=" container-fluid row col-12 navbar navbar-expand-lg navbar-dark bg-dark  fixed-top fon " id="navbar" >
 
-            <div class="container">
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
                 <a href="index.html" class="navbar-brand" style="margin-left: 60px;">
                     <img src="img/LOGO MG SUP.png" alt="" width="100px">
                 </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#my-navbar" style="margin-right: 10px;">
+                    <i class="fas fa-bars"></i>
+                </button>
+    
             </div>
 
 
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                <i class="fas fa-bars"></i>
-            </button>
+            
+            
 
-            <a href="https://bit.ly/WhatsApp-MGSuperficies" class="navbar-brand">
-                <div id="btn-wpp">
-                    <img src="img/BOTÃO WTHS.png" width="180px">
-                </div>
-            </a>
-
-            <div class="collapse navbar-collapse " id="navbar-collapse">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse col-sm-8 col-md-8 col-lg-8 col-xl-8" id="my-navbar" style="background-color: black;">
+                <ul class="navbar-nav"  style="margin: auto; padding-left: 20%; padding-right: 20%;" id="my-navbar" >
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -69,12 +66,12 @@
                             data-bs-toggle="dropdown" aria-expanded="true">
                             Produtos
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="produtos/corian.html">Corian</a></li>
-                            <li><a class="dropdown-item" href="produtos/dekton.html">Dekton</a></li>
-                            <li><a class="dropdown-item" href="produtos/silestone.html">Silestone</a></li>
-                            <li><a class="dropdown-item" href="produtos/diamond.html">Diamond</a></li>
-                            <li><a class="dropdown-item" href="produtos/neolith.html">Neolith</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                            <li><a class="dropdown-item" style="color: black !important;" href="produtos/corian.html">Corian</a></li>
+                            <li><a class="dropdown-item" style="color: black !important;" href="produtos/dekton.html">Dekton</a></li>
+                            <li><a class="dropdown-item" style="color: black !important;" href="produtos/silestone.html">Silestone</a></li>
+                            <li><a class="dropdown-item" style="color: black !important;" href="produtos/diamond.html">Diamond</a></li>
+                            <li><a class="dropdown-item" style="color: black !important;" href="produtos/neolith.html">Neolith</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -85,9 +82,9 @@
                 </ul>
             </div>
 
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav" id="navbar-redes">
-                    <li class="nav-item">
+            <div class="collapse navbar-collapse col-sm-2 col-md-2 col-lg-2 col-xl-2" >
+                <ul class="navbar-nav col-12" id="navbar-redes" style="margin-left: 58px;">
+                    <li class="nav-item" >
                         <a href="https://www.facebook.com/mgsuperficies">
                             <img src="img/facebook.png" width="20px" style="margin: 10px;">
                         </a>
@@ -105,6 +102,11 @@
                         </a>
                     </li>
                 </ul>
+                <a href="https://bit.ly/WhatsApp-MGSuperficies">
+                    <div id="btn-wpp">
+                        <img src="img/BOTÃO WTHS.png" width="180px">
+                    </div>
+                </a>
             </div>
 
 
@@ -114,9 +116,9 @@
 
     <main class="clearfix" style="margin-bottom: 0px;">
 
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="myCarousel" class="container-fluid carousel slide row col-auto" data-bs-ride="carousel">
 
-            <div class="carousel-inner">
+            <div class="carousel-inner w-100">
                 <div class="carousel-item active">
                     <img src="img/Banner site - SCA Curitiba.png" width="1024px" class="img-fluid">
                 </div>
@@ -144,11 +146,11 @@
   ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <div class="container" id="myGroup">
+        <div class="container-fluid row col-12" id="myGroup">
 
 
 
-            <nav class="navbar-collapse" style="padding: 20px; margin-left: 100px;">
+            <nav class="navbar-collapse" style="text-align: center;">
                 <a data-toggle="collapse" href="#corian" aria-controls="corian, text-corian">
                     <img src="img/CORIAN.png" width="180px">
                 </a>
@@ -166,13 +168,10 @@
 
             <div>
                 <div data-bs-spy="scroll" data-bs-target="#myGroup" data-bs-offset="0" class="scrollspy-example"
-                    tabindex="0">
-                    <div class="collapse" id="corian" data-parent="#myGroup">
-                        <div class="col-md-5">
-                            <img src="img/produtos.png" width="400px" height="400px"
-                                style="position: absolute; right: 150px;">
-                        </div>
-                        <div class="jumbotron col-md-5">
+                    tabindex="0" >
+                    <div class="container-fluid row collapse" id="corian" data-parent="#myGroup" style="text-align: center;">
+                        
+                        <div class="jumbotron col-md-6">
                             <h1 class="display-4"><strong>CORIAN</strong> DUPONT</h1>
                             <p class="lead" style="font-family: Arial, Helvetica, sans-serif;">DuPont™ Corian® é a
                                 combinação perfeita de minerais naturais e polímero
@@ -185,16 +184,16 @@
                             <p style="font-family: Arial, Helvetica, sans-serif;">Projetos de Cozinhas - Banheiros -
                                 Hospitais e Áreas de Saúde </p>
                         </div>
+                        <div class="col-md-6">
+                            <img src="img/produtos.png" width="400px" height="400px" >
+                        </div>
 
 
                     </div>
 
-                    <div class="collapse" id="dekton" data-parent="#myGroup">
-                        <div class="col-md-5">
-                            <img src="img/produtos.png" width="400px" height="400px"
-                                style="position: absolute; right: 150px;">
-                        </div>
-                        <div class="jumbotron col-md-5">
+                    <div class="container-fluid row collapse" id="dekton" data-parent="#myGroup" style="text-align: center;">
+                        
+                        <div class="jumbotron col-md-6">
                             <h1 class="display-4"><strong>DEKTON</strong></h1>
                             <p class="lead" style="font-family: Arial, Helvetica, sans-serif;">Dekton, a nova superfície
                                 ultracompacta da Cosentino, utiliza na sua
@@ -208,16 +207,16 @@
                             <p style="font-family: Arial, Helvetica, sans-serif;">Revestimentos - Bancadas - Pisos e
                                 Pavimentos</p>
                         </div>
-
+                        <div class="col-md-6">
+                            <img src="img/produtos.png" width="400px" height="400px"
+                                >
+                        </div>
 
                     </div>
 
-                    <div class="collapse" id="silestone" data-parent="#myGroup">
-                        <div class="col-md-5">
-                            <img src="img/produtos.png" width="400px" height="400px"
-                                style="position: absolute; right: 150px;">
-                        </div>
-                        <div class="jumbotron col-md-5">
+                    <div class="container-fluid row collapse" id="silestone" data-parent="#myGroup" style="text-align: center;">
+                        
+                        <div class="jumbotron col-md-6">
                             <h1 class="display-4"><strong>SILESTONE</strong></h1>
                             <p class="lead" style="font-family: Arial, Helvetica, sans-serif;"> Silestone é composto por
                                 cerca de 94% de quartzo natural, o que lhe
@@ -231,16 +230,16 @@
                             <p style="font-family: Arial, Helvetica, sans-serif;">Bancadas de cozinha - Banheiros -
                                 Pisos e Revestimentos</p>
                         </div>
-
+                        <div class="col-md-6">
+                            <img src="img/produtos.png" width="400px" height="400px"
+                            >
+                        </div>
 
                     </div>
 
-                    <div class="collapse" id="diamond" data-parent="#myGroup">
-                        <div class="col-md-5">
-                            <img src="img/produtos.png" width="400px" height="400px"
-                                style="position: absolute; right: 150px;">
-                        </div>
-                        <div class="jumbotron col-md-5">
+                    <div class="container-fluid row collapse" id="diamond" data-parent="#myGroup" style="text-align: center;">
+                        
+                        <div class="jumbotron col-md-6">
                             <h1 class="display-4"><strong>DIAMOND</strong></h1>
                             <p class="lead" style="font-family: Arial, Helvetica, sans-serif;">A linha Ultracompact
                                 possui design italiano, grandes formatos em diferentes
@@ -254,16 +253,16 @@
                             <p style="font-family: Arial, Helvetica, sans-serif;">Bancadas de cozinha - Bancadas de
                                 banheiros - Revestimentos de churrasqueiras</p>
                         </div>
-
+                        <div class="col-md-6">
+                            <img src="img/produtos.png" width="400px" height="400px"
+                                >
+                        </div>
 
                     </div>
 
-                    <div class="collapse" id="neolith" data-parent="#myGroup">
-                        <div class="col-md-5">
-                            <img src="img/produtos.png" width="400px" height="400px"
-                                style="position: absolute; right: 150px;">
-                        </div>
-                        <div class="jumbotron col-md-5">
+                    <div class="container-fluid row collapse" id="neolith" data-parent="#myGroup" style="text-align: center;">
+                        
+                        <div class="jumbotron col-md-6">
                             <h1 class="display-4"><strong>NEOLITH</strong></h1>
                             <p class="lead" style="font-family: Arial, Helvetica, sans-serif;">Também chamada
                                 popularmente de “pedra industrializada”, lâmina porcelânica
@@ -279,7 +278,10 @@
                             <p style="font-family: Arial, Helvetica, sans-serif;">Bancadas de cozinha - Revestimentos -
                                 Mobiliário</p>
                         </div>
-
+                        <div class="col-md-6">
+                            <img src="img/produtos.png" width="400px" height="400px"
+                                >
+                        </div>
 
                     </div>
 
@@ -293,22 +295,19 @@
 
 
 
-        <div>
-            <a href="contatos/contatos.html" aria-pressed="true" style="position: absolute; right: 512px;">
+        <div class="container-fluid row">
+            <a href="contatos/contatos.html" aria-pressed="true" class="col-12" style="text-align: center; margin-top: 100px; margin-bottom: 100px;">
                 <img class=" " src="img/Botão - COMPLETO.png" width="300px">
             </a>
-
-            <hr class=" featurette-divider">
-            <br>
 
 
             <!-- START THE FEATURETTES -->
 
-            <h5 style="text-align: center; color: white; font-size: 38px;">
+            <h5 style="text-align: center; color: white; font-size: 28px; margin-bottom: 50px;">
                 <strong>PRESENTE ENTRE OS MAIS RENOMADOS ARQUITETOS, DESIGNERS,<br> LOJAS DE MÓVEIS E INTERIORES DE ALTO
                     PADRÃO!</strong>
             </h5>
-            <br><br><br>
+            
 
             <div
                 style="background-image: url('img/FAIXA\ -\ CINZA.png'); height: 30px; text-align: center; font-family: Arial, Helvetica, sans-serif; color: black;">
@@ -324,7 +323,7 @@
             </h5>
 
             <br><br>
-            <div class="row">
+            <div class="container row">
                 <div class="card col-md-3 depoimento" style="margin-left: 240px;">
                     <div class="card-body">
                         <h5 class="card-subtitle mb-2 text-muted" style="font-size: 22px;"><strong>Blanc
